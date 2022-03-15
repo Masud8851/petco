@@ -6,6 +6,7 @@
 
 .top-header img{
     width: 100%;
+    height: auto;
 }
 
 .hero-container{
@@ -102,13 +103,14 @@
 .nourish{
     margin: 5% 10px;
     text-align: center;
-    min-height: 763px;
+    max-height: 763px;
 }
 
 .nutrition-part{
     display: flex;
     flex-wrap: wrap;
     margin: 20px 0;
+    align-items: center;
 }
 
 .nutrition-part-left, .nutrition-part-right{
@@ -145,12 +147,18 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 #food-item-second-row{
     margin: 10px 0;
 }
 
+#dog-info{
+    background-color: aqua;
+    text-align: center;
+    width: 622px;
+}
 
 
 
@@ -163,8 +171,4 @@
 
 
 
-
-/* -------------------------------- */
-/* |||||| ----- TEST ----- ||||||| */
-/* -------------------------------- */
 
